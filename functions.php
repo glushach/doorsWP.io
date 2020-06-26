@@ -14,6 +14,6 @@ function addScripts(){
 }
 
 function addStyles(){
-  wp_enqueue_style('style', get_stylesheet_uri());
+  wp_enqueue_style('style?1', get_stylesheet_uri());
 }
 ?>
