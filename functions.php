@@ -3,6 +3,7 @@ add_action('wp_footer', 'addScripts');
 add_action('wp_enqueue_scripts', 'addStyles');
 add_theme_support('custom-logo');
 
+
 function addScripts(){
   wp_deregister_script('jquery-core');
   wp_register_script('jquery-core', get_template_directory_uri() .
